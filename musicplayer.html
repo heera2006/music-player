@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+
+    <title>Music Player</title>
+ <script src="https://kit.fontawesome.com/109f141137.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="musicplayer.css">
+</head>
+<body>
+
+<div class="player">
+
+    <div class="top-icons">
+
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="cover">
+        <img src="selenaa.png" alt="Selena Gomez">
+    </div>
+
+    <h2>We don't talt anymore</h2>
+    <p>Selena Gomez</p>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="controls">
+        <i class="fa-solid fa-backward-step"></i>
+
+        <div id="playPause">
+            <i class="fa-solid fa-play"></i>
+        </div>
+
+        <i class="fa-solid fa-forward-step"></i>
+    </div>
+
+    <audio id="audio" src="song Audio.mpeg"></audio>
+
+</div>
+
+<script src="musicplayer.js"></script>
+</body>
+</html>
